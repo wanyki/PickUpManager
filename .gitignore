@@ -1,0 +1,39 @@
+# Android Studio / IntelliJ
+*.iml
+/.idea/
+
+# Gradle and Kotlin caches
+/.gradle/
+/.kotlin/
+**/build/
+
+# Local Android SDK configuration
+/local.properties
+
+# Codex local artifacts and logs
+/.artifacts/
+
+# Generated packages
+*.apk
+*.aab
+/app/release/
+
+# Signing keys and local signing configuration
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Firebase project configuration
+/app/google-services.json
+/google-services.json
+
+# Native build and profiling outputs
+/.externalNativeBuild/
+/.cxx/
+/captures/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
